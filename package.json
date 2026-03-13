@@ -1,0 +1,27 @@
+{
+  "name": "airdrop",
+  "version": "1.0.0",
+  "description": "Node.js FTP Server & Client with bidirectional folder synchronization, automatic local IP detection and CLI progress tracking.",
+  "homepage": "https://github.com/blacknode305/airdrop#readme",
+  "bugs": {
+    "url": "https://github.com/blacknode305/airdrop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blacknode305/airdrop.git"
+  },
+  "license": "MIT",
+  "author": "Alexandr Astashov <blacknode305@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "node server.js",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.2.0",
+    "cli-progress": "^3.12.0",
+    "ftp-srv": "^4.6.3"
+  }
+}

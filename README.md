@@ -18,7 +18,14 @@ It works on:
 
 - macOS
 - Linux
+- Windows
 - Android (Termux)
+
+---
+
+## ⚠ Important
+
+If you're running the server on one device, run the client on other devices and enter the server's IP address the first time you connect (you can use the previous IP address later, unless it changes).
 
 ---
 
@@ -41,3 +48,85 @@ Clone the repo and install dependencies:
 git clone https://github.com/blacknode305/airdrop.git
 cd airdrop
 npm install
+```
+
+---
+
+## 🛠 Running on Linux
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/blacknode305/airdrop.git
+cd airdrop
+npm install
+```
+
+---
+
+## 🛠 Running on Mac
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/blacknode305/airdrop.git
+cd airdrop
+npm install
+```
+
+---
+
+## 🛠 Running on Windows
+
+Clone the repo and install dependencies:
+
+```bash
+git clone https://github.com/blacknode305/airdrop.git
+cd airdrop
+npm install
+```
+
+---
+
+
+## 📱 Running on Android (Termux)
+
+1. Install Termux from F-Droid  
+
+2. Setup Termux storage:
+
+```bash
+termux-setup-storage
+```
+2. Update packages:
+
+```bash
+pkg update && pkg upgrade
+```
+3. Install dependencies:
+
+```bash
+pkg install nodejs git
+```
+
+4. Clone repository:
+
+```bash
+git clone https://github.com/blacknode305/airdrop.git
+cd airdrop
+```
+
+5. Install npm packages:
+
+```bash
+npm install
+```
+
+6. Run server or client:
+
+```bash
+npm run server
+npm run client
+```
+
+----
