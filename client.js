@@ -21,7 +21,7 @@ if (process.platform === 'darwin') {
 // Если Android / Termux / Linux
 else {
   // Устанавливаем другой путь для Linux/Android
-  param.localPath = path.resolve('./../storage/downloads/_data/_shared');
+  param.localPath = path.resolve('./../../storage/downloads/_data/_shared');
 }
 
 // Выводим список файлов в локальной папке (для проверки)
