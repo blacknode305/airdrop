@@ -44,7 +44,7 @@ function getLocalIP() {
           // Устанавливаем путь к общей папке для Linux/Android
           param.rootPath = path.join(
             __dirname,
-            '../storage/downloads/_data/_shared'
+            '..../storage/downloads/_data/_shared'
           );
 
           // Возвращаем найденный IP-адрес
